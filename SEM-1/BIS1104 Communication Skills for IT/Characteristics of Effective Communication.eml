@@ -1,0 +1,183 @@
+Delivered-To: charleskasasira01@gmail.com
+Received: by 2002:a4a:5856:0:0:0:0:0 with SMTP id f83csp1049636oob;
+        Wed, 11 Sep 2019 09:32:13 -0700 (PDT)
+X-Received: by 2002:a05:600c:22c9:: with SMTP id 9mr4823245wmg.133.1568219532922;
+        Wed, 11 Sep 2019 09:32:12 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1568219532; cv=none;
+        d=google.com; s=arc-20160816;
+        b=Dn0D96qJAXIHYiLNb+cI1HGz/NJyLJeIpKpm7SyozUiffvN95eOtGKsb2EGqaRICYe
+         Cdf5+7o9lPXRTEivpnYiKPzhscF8c+lbeaveiCpuLUCkkFiVDMnGB+yhMiwzNGuok/J8
+         mPT+gZNaPt/7XYj497lodgiXSlmY/CyF21oiHs0+nzhyy+PgOUR+FEBlsnILsO8sci3v
+         SdWYFhgrIln+Vf2MDihHTlhi9HIQh0T64G4R2Ad6iqYcnIovROHL3grI+pPJX2ulXzis
+         dQoS4+8ODHnZcOuaYBO9CPAuBY5LYfUO2mWuUkecf/KVLI34n/2s1+DHZcisStHMVeLX
+         NkuQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=to:message-id:subject:date:mime-version:from
+         :content-transfer-encoding:dkim-signature;
+        bh=sczndEBN/XkoAJnQ9IE15f37z4F8//0+bXV+Uv+W7qY=;
+        b=kpF1VyYeyNXrAEMe/2xrrE3JfC91uOfNfvnnIyFewVNrl5PqB8NFKgHxGrst7F3rwI
+         TCP6YbrUWqLZv6O5vsTiexTJtwHx9Nhp43Nw+HpIoJYhLLp6/RfykwdcPNugAu3QoaGz
+         ZsmLyuLzHlkUIuJ3zgQt12otzP7SKZeQdmxoIgpjNuXLh/GAVbo6rMkVVOyAt4RMyTd0
+         7WX8dOlHe7v3SKKXFvg/QtLlng34CgDXxS9WW/0AFoZqpcm2p898smvRTLdYGoXtlRKb
+         vO7WrxZVUfeHDP5rnhVdvuRur+H8/HHYrrMb26wHvN23lR/zcavaBpClMxQGpMlW5VuW
+         mDSA==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20161025 header.b=CRdujsz+;
+       spf=pass (google.com: domain of lankamusic21@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=lankamusic21@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+Return-Path: <lankamusic21@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id g13sor17564082wrp.49.2019.09.11.09.32.12
+        for <charleskasasira01@gmail.com>
+        (Google Transport Security);
+        Wed, 11 Sep 2019 09:32:12 -0700 (PDT)
+Received-SPF: pass (google.com: domain of lankamusic21@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20161025 header.b=CRdujsz+;
+       spf=pass (google.com: domain of lankamusic21@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=lankamusic21@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=content-transfer-encoding:from:mime-version:date:subject:message-id
+         :to;
+        bh=sczndEBN/XkoAJnQ9IE15f37z4F8//0+bXV+Uv+W7qY=;
+        b=CRdujsz+YCOxilBgJlZkbXfQHS+K1ONuYIvPccQjimC2Wx69SHhel9T2rPS1B7Dfwr
+         mekSXr6uK8r5SMgan8crVlWNZ6yFdiVCMe/DxPQc7ymY3NPnPQVKJ9vTqBvRFgL4x2Sn
+         KXCx7NJZRJWqKpiYp1F3TK2Lkpw1G9DJlV0zf/9xGhFNfYAaBKhlaUBdcBmUBxWPZZji
+         XvocpHGQ5uLI6d87kv23fjX08xoNTnxBuz2oGrkGN/GtPhtSXd4ZiBQqWF5nPbZkaqbg
+         p4Q8CMP3gqZh2M+RQe9fKtr6JD111iQmiZpiUU5nPC8NZQlcjTru9y5fOat84XK0OB37
+         WOjw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:content-transfer-encoding:from:mime-version:date
+         :subject:message-id:to;
+        bh=sczndEBN/XkoAJnQ9IE15f37z4F8//0+bXV+Uv+W7qY=;
+        b=IJ3+5XqsRcUta/5lgfO6Ad2mLLxY+up2EfK9HWvpZ4AsR0UdERx80MlPFLIbth/3Zh
+         qgzSZeiyMtTsrgcHYJCGBRq4sRxUts8DTLIBLnSAlo7P3X6g+6+lk6DWXgqQ83SntNwN
+         4wlF22wKTWLyNoyhRPrxME7sHCCTh7MypcZKwUZKd6kGGdjrr52RSf5UowcZ3jKRCuDq
+         JSOiA3llXbS5dsVDzf94xLAwkTj4xl2hDiUMGAW+mlKf9hDKVt1vJjeSKYvdYcJqvH2s
+         ImZpd8imGEggtuW+TArQ8nYPp0Kj1rmTzTR3vivZAG7lDvb+GSBbWNeVkb2EWK1yx1VN
+         LwRw==
+X-Gm-Message-State: APjAAAVhgmXooo3OXHz7Y7xfBRdKuWZrgQseLoOPAVLpVSNiI9grY0te
+	S2h+gzknghjosFXurYkmBoe1D++j
+X-Google-Smtp-Source: APXvYqzbvYqMkK+JozftJxcKzZ+lpW2rKy6e1W6MjJQOjyDG0TxwFXheZ8xC2P5TXqVmTuQ6Cd1BMg==
+X-Received: by 2002:adf:f846:: with SMTP id d6mr32000960wrq.67.1568219532199;
+        Wed, 11 Sep 2019 09:32:12 -0700 (PDT)
+Return-Path: <lankamusic21@gmail.com>
+Received: from [10.10.11.237] ([196.43.135.109])
+        by smtp.gmail.com with ESMTPSA id r18sm5084287wme.48.2019.09.11.09.32.11
+        for <charleskasasira01@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 11 Sep 2019 09:32:11 -0700 (PDT)
+Content-Type: multipart/alternative; boundary=Apple-Mail-10FF60DF-6F98-4BC8-828B-2D09DA3D7314
+Content-Transfer-Encoding: 7bit
+From: Lanka MUSIC 97 <lankamusic21@gmail.com>
+Mime-Version: 1.0 (1.0)
+Date: Wed, 11 Sep 2019 19:32:08 +0300
+Subject: Characteristics of Effective Communication
+Message-Id: <D1D7F3FC-E5BE-43F4-AB46-F225683D744D@gmail.com>
+To: charleskasasira01@gmail.com
+X-Mailer: iPhone Mail (16G102)
+
+
+--Apple-Mail-10FF60DF-6F98-4BC8-828B-2D09DA3D7314
+Content-Type: text/plain;
+	charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+
+Characteristics of Effective Communication
+
+The characteristics or principles of effective communication are pivotal for=
+ ensuring a productive communication. The major characteristics or principle=
+s are as follows:
+
+Completeness of the Message
+
+Communication must be complete so as not to baffle the recipient. Better com=
+munication helps in better decision-making by the latter. It develops and en=
+hances the reputation of an organization.
+
+Clearness and Integrity of the Message
+
+The message to be conveyed or sent must have clarity and integrity for bette=
+r understanding. Clarity of thoughts and ideas enhances the meaning of the m=
+essage. The pith and substance of the message should be based on honesty and=
+ accuracy.
+
+Conciseness of the Message
+
+The intended message must be free from verbosity and should be so written th=
+at it is intelligible at the first sight. Short and intelligible message sen=
+t to the receiver is ever appealing and comprehensible. It saves time and co=
+st as it is understood at the first instance.
+
+Consideration of Physical Setting and the Recipient
+
+In order to make communication more effective, the overall physical setting,=
+ i.e., the media of communication and the work environment, must be consider=
+ed. The content of the message must take into account the attitude, knowledg=
+e, and position of the recipient.
+
+Clarity of the Message
+
+The message should have clarity of thoughts and ideas in order to be underst=
+ood clearly. Clear message makes use of exact, appropriate and concrete word=
+s and symbols.
+
+Courtesy to be Maintained
+
+The sender's message should be so drafted or prepared that it should be poli=
+te, reflective, and enthusiastic. It must show the sender's respect for the r=
+eceiver and be positive and focused at the receiver.
+
+Correctness of the Message
+
+The drafting of the message should be done in such a manner that the final m=
+essage doesn't have any grammatical errors and repetitions of sentences. The=
+ message should be exact, correct and well-timed.
+
+12 Effective Commun
+
+
+Sent from my iPhone=
+
+--Apple-Mail-10FF60DF-6F98-4BC8-828B-2D09DA3D7314
+Content-Type: text/html;
+	charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+<html><head><meta http-equiv="content-type" content="text/html; charset=utf-8"></head><body dir="auto"><div dir="ltr"><div>Characteristics of Effective Communication</div>
+<div><br></div>
+<div>The characteristics or principles of effective communication are pivotal for ensuring a productive communication. The major characteristics or principles are as follows:</div>
+<div><br></div>
+<div><b><i>Completeness of the Message</i></b><br></div>
+<div><br></div>
+<div>Communication must be complete so as not to <strike>baffle</strike> the recipient. Better communication helps in better decision-making by the latter. It develops and enhances the reputation of an organization.</div>
+<div><br></div>
+<div><b><i>Clearness and Integrity of the Message</i></b><br></div>
+<div><br></div>
+<div>The message to be conveyed or sent must have clarity and integrity for better understanding. Clarity of thoughts and ideas enhances the meaning of the message. The pith and substance of the message should be based on honesty and accuracy.</div>
+<div><br></div>
+<div><b><i>Conciseness of the Message</i></b><br></div>
+<div><br></div>
+<div>The intended message must be free from verbosity and should be so written that it is intelligible at the first sight. Short and intelligible message sent to the receiver is ever appealing and comprehensible. It saves time and cost as it is understood at the first instance.</div>
+<div><br></div>
+<div><b><i>Consideration of Physical Setting and the Recipient</i></b><br></div>
+<div><br></div>
+<div>In order to make communication more effective, the overall physical setting, i.e., the media of communication and the work environment, must be considered. The content of the message must take into account the attitude, knowledge, and position of the recipient.</div>
+<div><br></div>
+<div><b><i>Clarity of the Message</i></b><br></div>
+<div><br></div>
+<div>The message should have clarity of thoughts and ideas in order to be understood clearly. Clear message makes use of exact, appropriate and concrete words and symbols.</div>
+<div><br></div>
+<div><b><i>Courtesy to be Maintained</i></b><br></div>
+<div><br></div>
+<div>The sender's message should be so drafted or prepared that it should be polite, reflective, and enthusiastic. It must show the sender's respect for the receiver and be positive and focused at the receiver.</div>
+<div><br></div>
+<div><b><i>Correctness of the Message</i></b><br></div>
+<div><br></div>
+<div>The drafting of the message should be done in such a manner that the final message doesn't have any grammatical errors and repetitions of sentences. The message should be exact, correct and well-timed.</div>
+<div><br></div>
+<div>12 Effective Commun</div>
+</div><br><br><div id="AppleMailSignature" dir="ltr">Sent from my iPhone</div></body></html>
+--Apple-Mail-10FF60DF-6F98-4BC8-828B-2D09DA3D7314--
