@@ -20,6 +20,13 @@
 
     4ii. **Runtime errors**: dynamic semantic and logical errors that cannot be determined by the compiler.
 
+
+5. 
+| COMPILED | INTERPRETED |
+| --- | --- |
+| faster | first converted to native machine code |
+| different code bases for different operating systems | Write once, run everywhere
+
         
 
         
