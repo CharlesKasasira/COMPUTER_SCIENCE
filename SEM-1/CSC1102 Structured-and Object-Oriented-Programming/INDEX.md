@@ -27,6 +27,12 @@
 | faster | first converted to native machine code |
 | different code bases for different operating systems | Write once, run everywhere
 
+6. 
+| TEXT EDITORS | IDE's | WORD PROCESSORS | 
+| --- | --- | --- |
+
+7. **Statement**: an instruction that can be executed.
+
         
 
         
